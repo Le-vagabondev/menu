@@ -1,6 +1,83 @@
 body{
-    color: aqua;
-    h1{
-        color: red;
+
+ font-family: 'Roboto', sans-serif;
+ .cont_nav{
+     
+         display: grid;
+     
+     header {
+         margin: auto;
+         color: aqua;
+     }
+     nav{
+         ul{
+             list-style-type: none;
+             color: aqua;
+             a{
+                 text-decoration: none;
+                 color: aqua;
+             }
+         }
+     }
+
+ }
+    .menu{
+            div{
+                display: flex;
+            }          
+    }
+}
+
+
+@media (max-width: 767.98px){
+    body{
+        background-color: black;
+        color: aliceblue;
+   
+    .cont_nav{
+        grid-template-columns: 1fr 1fr;
+        header {
+            margin-left: 10px;
+            color: aqua;
+        }
+        nav{
+ 
+            ul{
+                list-style-type: none;
+                color: aqua;
+                a{
+                    text-decoration: none;
+                    color: aqua;
+                }
+            }
+        }
+        .menu{
+                div{
+                    display: flex;
+                }          
+        }
+    }
+    }
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: rgb(240, 21, 21);
+        .cont_nav{
+            display: grid;
+            grid-template-columns: 1fr ; 
+            ul{
+                display: flex;
+                justify-content: space-around;
+                li{
+                }
+            }
+        }
+
+    }
+}
+@media (min-width: 992px){
+    body{
+        background-color: rgb(156, 109, 109);
     }
 }
