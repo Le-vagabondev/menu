@@ -1,20 +1,18 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: pink;
 }
 body .cont_nav {
   display: grid;
 }
 body .cont_nav header {
   margin: auto;
-  color: aqua;
 }
 body .cont_nav nav ul {
   list-style-type: none;
-  color: aqua;
 }
 body .cont_nav nav ul a {
   text-decoration: none;
-  color: aqua;
 }
 body .menu div {
   display: flex;
@@ -23,33 +21,57 @@ body .menu div {
 @media (max-width: 767.98px) {
   body {
     background-color: black;
-    color: aliceblue;
+    color: pink;
   }
   body .cont_nav {
     grid-template-columns: 1fr 1fr;
   }
   body .cont_nav header {
     margin-left: 10px;
-    color: aqua;
   }
   body .cont_nav nav ul {
     list-style-type: none;
-    color: aqua;
   }
   body .cont_nav nav ul a {
     text-decoration: none;
-    color: aqua;
+    color: pink;
   }
-  body .cont_nav .home {
-    color: red;
+  body section {
+    margin-top: 100px;
+    position: absolute;
   }
-  body .cont_nav .menu div {
+  body section .home {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+  }
+  body section .home span {
+    width: 80%;
+    margin: auto;
+  }
+  body section .menu {
+    text-align: center;
+  }
+  body section .menu .carrousel {
+    height: 150px;
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body section .menu .carrousel .card {
+    width: 100px;
+    height: 80%;
+    background-color: #c5b674;
+    border-radius: 5px;
   }
 }
 @media (min-width: 768px) {
   body {
-    background-color: #f01515;
+    background-color: pink;
+    color: black;
   }
   body .cont_nav {
     display: grid;
@@ -59,9 +81,94 @@ body .menu div {
     display: flex;
     justify-content: space-around;
   }
+  body .cont_nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  body section {
+    margin-top: 100px;
+    position: absolute;
+  }
+  body section .home {
+    height: 300px;
+    width: 50%;
+    text-align: left;
+    background-color: gray;
+    margin-left: 100px;
+  }
+  body section .home span {
+    width: 80%;
+    margin: auto;
+  }
+  body section .menu {
+    text-align: center;
+    margin-top: 80px;
+  }
+  body section .menu .carrousel {
+    height: 150px;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body section .menu .carrousel .card {
+    width: 120px;
+    height: 80%;
+    background-color: #c5b674;
+    border-radius: 5px;
+  }
 }
 @media (min-width: 992px) {
   body {
-    background-color: #9c6d6d;
+    background-color: black;
+    color: pink;
+  }
+  body .cont_nav {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body .cont_nav ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  body .cont_nav ul li a {
+    text-decoration: none;
+    color: pink;
+  }
+  body section {
+    margin-top: 100px;
+    position: absolute;
+  }
+  body section .home {
+    height: 300px;
+    width: 40%;
+    text-align: left;
+    background-color: gray;
+    margin-left: 100px;
+  }
+  body section .home span {
+    width: 80%;
+    margin: auto;
+  }
+  body section .menu {
+    text-align: center;
+    margin-top: 100px;
+  }
+  body section .menu .carrousel {
+    height: 150px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body section .menu .carrousel .card {
+    width: 150px;
+    height: 80%;
+    background-color: #c5b674;
+    border-radius: 5px;
   }
 }

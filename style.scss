@@ -1,21 +1,27 @@
+$myFont:'Roboto', sans-serif;
+$color-u: pink;
+$color-d: black;
+
+
+
 body{
 
- font-family: 'Roboto', sans-serif;
+ font-family: $myFont;
+ color: $color-u;
  .cont_nav{
      
          display: grid;
      
      header {
          margin: auto;
-         color: aqua;
+    
      }
      nav{
          ul{
              list-style-type: none;
-             color: aqua;
+            
              a{
                  text-decoration: none;
-                 color: aqua;
              }
          }
      }
@@ -31,42 +37,67 @@ body{
 
 @media (max-width: 767.98px){
     body{
-        background-color: black;
-        color: aliceblue;
+        background-color: $color-d;
+        color:  $color-u;
    
     .cont_nav{
         grid-template-columns: 1fr 1fr;
         header {
             margin-left: 10px;
-            color: aqua;
+
         }
         nav{
  
             ul{
                 list-style-type: none;
-                color: aqua;
                 a{
                     text-decoration: none;
-                    color: aqua;
+                    color: $color-u;
                 }
             }
         }
 // section para el home y menú
+    }
+    section{
+        margin-top: 100px;
+        position: absolute;
         .home{
-           color : red;
+            height: 300px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            background-color:gray;
+          span{
+              width: 80%;
+              margin: auto;
+          }
         }
         .menu{
-                div{
-                    display: flex;
-                }          
-        }
+            text-align: center;
+            .carrousel{
+                height: 150px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+                .card{
+                    width: 100px;
+                    height: 80%;
+                    background-color: rgb(197, 182, 116);
+                    border-radius: 5px;
+                }
+            }        
+    }
+
     }
     }
 }
 
 @media (min-width: 768px){
     body{
-        background-color: rgb(240, 21, 21);
+        background-color: pink;
+        color:black;
         .cont_nav{
             display: grid;
             grid-template-columns: 1fr ; 
@@ -74,14 +105,115 @@ body{
                 display: flex;
                 justify-content: space-around;
                 li{
+                    a{
+                        text-decoration: none;
+                        color: $color-d;
+                    }
                 }
             }
         }
+        
+    section{
+        margin-top: 100px;
+        position: absolute;
+        .home{
+            height: 300px;
+            width: 50%;
+            text-align: left;
+            background-color:gray;
+            margin-left: 100px;
+          span{
+              width: 80%;
+              margin: auto;
+          }
+        }
+        .menu{
+            text-align: center;
+            //provisional
+            margin-top: 80px;
+            .carrousel{
+                height: 150px;
+                width: 100%;
+                // provisional
+                margin-top: 80px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+                .card{
+                    width: 120px;
+                    height: 80%;
+                    background-color: rgb(197, 182, 116);
+                    border-radius: 5px;
+                }
+            }        
+    }
+
+    }
 
     }
 }
 @media (min-width: 992px){
+ 
     body{
-        background-color: rgb(156, 109, 109);
+        background-color: $color-d;
+        color:$color-u;
+        .cont_nav{
+            //provisional
+             margin-top: 80px;
+            display: grid;
+            grid-template-columns: 1fr ; 
+            ul{
+                //provisional
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-around;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: $color-u;
+                    }
+                }
+            }
+        }
+        
+    section{
+        margin-top: 100px;
+        position: absolute;
+        .home{
+            height: 300px;
+            width: 40%;
+            text-align: left;
+            background-color:gray;
+            margin-left: 100px;
+          span{
+              width: 80%;
+              margin: auto;
+          }
+        }
+        .menu{
+            text-align: center;
+            //provisional
+            margin-top: 100px;
+            .carrousel{
+                height: 150px;
+                width: 100%;
+                // provisional
+                margin-top: 100px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+                .card{
+                    width: 150px;
+                    height: 80%;
+                    background-color: rgb(197, 182, 116);
+                    border-radius: 5px;
+                }
+            }        
+    }
+
+    }
+
     }
 }
