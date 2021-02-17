@@ -40,6 +40,9 @@ body .menu div {
     text-decoration: none;
     color: aqua;
   }
+  body .cont_nav .home {
+    color: red;
+  }
   body .cont_nav .menu div {
     display: flex;
   }
