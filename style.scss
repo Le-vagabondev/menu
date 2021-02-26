@@ -8,6 +8,12 @@ body{
 
  font-family: $myFont;
  color: $color-u;
+ ul{
+     list-style-type: none;
+      a{
+        text-decoration: none;
+      }
+ }
  .cont_nav{
      
          display: grid;
@@ -16,22 +22,12 @@ body{
          margin: auto;
     
      }
-     nav{
-         ul{
-             list-style-type: none;
-            
-             a{
-                 text-decoration: none;
-             }
-         }
-     }
 
  }
-    .menu{
-            div{
-                display: flex;
-            }          
-    }
+ section{
+
+ }
+    
 }
 
 
@@ -72,22 +68,10 @@ body{
               margin: auto;
           }
         }
-        .menu{
+        .tab-content{
             text-align: center;
-            .carrousel{
-                height: 150px;
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
+            color: green;
                 
-                .card{
-                    width: 100px;
-                    height: 80%;
-                    background-color: rgb(197, 182, 116);
-                    border-radius: 5px;
-                }
-            }        
     }
 
     }
@@ -106,7 +90,6 @@ body{
                 justify-content: space-around;
                 li{
                     a{
-                        text-decoration: none;
                         color: $color-d;
                     }
                 }
@@ -127,26 +110,10 @@ body{
               margin: auto;
           }
         }
-        .menu{
+        .tab-content{
             text-align: center;
             //provisional
-            margin-top: 80px;
-            .carrousel{
-                height: 150px;
-                width: 100%;
-                // provisional
-                margin-top: 80px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                
-                .card{
-                    width: 120px;
-                    height: 80%;
-                    background-color: rgb(197, 182, 116);
-                    border-radius: 5px;
-                }
-            }        
+           color: green;
     }
 
     }
@@ -168,12 +135,9 @@ body{
                 margin-top: 30px;
                 display: flex;
                 justify-content: space-around;
-                li{
                     a{
-                        text-decoration: none;
                         color: $color-u;
-                    }
-                }
+                    }               
             }
         }
         
@@ -191,26 +155,11 @@ body{
               margin: auto;
           }
         }
-        .menu{
+        .tab-content{
+            margin: 20px;
             text-align: center;
-            //provisional
-            margin-top: 100px;
-            .carrousel{
-                height: 150px;
-                width: 100%;
-                // provisional
-                margin-top: 100px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                
-                .card{
-                    width: 150px;
-                    height: 80%;
-                    background-color: rgb(197, 182, 116);
-                    border-radius: 5px;
-                }
-            }        
+            background-color: aqua;
+             color: green;    
     }
 
     }

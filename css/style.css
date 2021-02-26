@@ -2,22 +2,18 @@ body {
   font-family: "Roboto", sans-serif;
   color: pink;
 }
+body ul {
+  list-style-type: none;
+}
+body ul a {
+  text-decoration: none;
+}
 body .cont_nav {
   display: grid;
 }
 body .cont_nav header {
   margin: auto;
 }
-body .cont_nav nav ul {
-  list-style-type: none;
-}
-body .cont_nav nav ul a {
-  text-decoration: none;
-}
-body .menu div {
-  display: flex;
-}
-
 @media (max-width: 767.98px) {
   body {
     background-color: black;
@@ -51,21 +47,9 @@ body .menu div {
     width: 80%;
     margin: auto;
   }
-  body section .menu {
+  body section .tab-content {
     text-align: center;
-  }
-  body section .menu .carrousel {
-    height: 150px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  body section .menu .carrousel .card {
-    width: 100px;
-    height: 80%;
-    background-color: #c5b674;
-    border-radius: 5px;
+    color: green;
   }
 }
 @media (min-width: 768px) {
@@ -82,7 +66,6 @@ body .menu div {
     justify-content: space-around;
   }
   body .cont_nav ul li a {
-    text-decoration: none;
     color: black;
   }
   body section {
@@ -100,23 +83,9 @@ body .menu div {
     width: 80%;
     margin: auto;
   }
-  body section .menu {
+  body section .tab-content {
     text-align: center;
-    margin-top: 80px;
-  }
-  body section .menu .carrousel {
-    height: 150px;
-    width: 100%;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  body section .menu .carrousel .card {
-    width: 120px;
-    height: 80%;
-    background-color: #c5b674;
-    border-radius: 5px;
+    color: green;
   }
 }
 @media (min-width: 992px) {
@@ -134,8 +103,7 @@ body .menu div {
     display: flex;
     justify-content: space-around;
   }
-  body .cont_nav ul li a {
-    text-decoration: none;
+  body .cont_nav ul a {
     color: pink;
   }
   body section {
@@ -153,22 +121,10 @@ body .menu div {
     width: 80%;
     margin: auto;
   }
-  body section .menu {
+  body section .tab-content {
+    margin: 20px;
     text-align: center;
-    margin-top: 100px;
-  }
-  body section .menu .carrousel {
-    height: 150px;
-    width: 100%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  body section .menu .carrousel .card {
-    width: 150px;
-    height: 80%;
-    background-color: #c5b674;
-    border-radius: 5px;
+    background-color: aqua;
+    color: green;
   }
 }
