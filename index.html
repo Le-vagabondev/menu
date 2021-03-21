@@ -4,27 +4,65 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+        <!––link rel="stylesheet" href="./node_modules/normalize.css/normalize.css"––>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <script src="./scripts.js" defer></script>
-    <title>menu</title>
+    <title>portafoiio</title>
 </head>
 <body>
     <div class="cont_nav">
+        <span>mi portafolio</span>
+      
         
-        <header>LA GLOTONA</header>
-        <nav>
-            <ul>
-                <li> <a href="#">home</a></li>
-                <li> <a href="#">menu</a></li>
-            </ul>
-        </nav>
     </div>
     <section>
         <div class="home">
-            <h1>La glotona</h1>
+            <h2>un poco de mi</h2>
+            <span>
+                <p>
+                    Irure elit fugiat proident consectetur esse aliqua ea cillum proident proident sit. 
+                    Consectetur anim non qui esse ullamco minim labore incididunt Lorem exercitation adipisicing sint. 
+                    Aute duis pariatur dolor id nulla enim tempor cillum excepteur culpa aliqua. Quis mollit est 
+                    officia irure excepteur consequat voluptate tempor adipisicing nisi laborum ut fugiat amet. 
+                    Officia non sint deserunt nisi sint consequat adipisicing tempor eu in fugiat cupidatat do. 
+                </p>
+
+            </span>
+            
+        </div>
+        <div class="home">
+            <h2>estudios</h2>
+            <span>
+                <p>
+                    Irure elit fugiat proident consectetur esse aliqua ea cillum proident proident sit. 
+                    Consectetur anim non qui esse ullamco minim labore incididunt Lorem exercitation adipisicing sint. 
+                    Aute duis pariatur dolor id nulla enim tempor cillum excepteur culpa aliqua. Quis mollit est 
+                    officia irure excepteur consequat voluptate tempor adipisicing nisi laborum ut fugiat amet. 
+                    Officia non sint deserunt nisi sint consequat adipisicing tempor eu in fugiat cupidatat do. 
+                </p>
+
+            </span>
+            
+        </div>
+        <div class="home">
+            <h2>mis estudios</h2>
+            <span>
+                <p>
+                    Irure elit fugiat proident consectetur esse aliqua ea cillum proident proident sit. 
+                    Consectetur anim non qui esse ullamco minim labore incididunt Lorem exercitation adipisicing sint. 
+                    Aute duis pariatur dolor id nulla enim tempor cillum excepteur culpa aliqua. Quis mollit est 
+                    officia irure excepteur consequat voluptate tempor adipisicing nisi laborum ut fugiat amet. 
+                    Officia non sint deserunt nisi sint consequat adipisicing tempor eu in fugiat cupidatat do. 
+                </p>
+
+            </span>
+            
+        </div>
+        <div class="home">
+            <h2>mis habilidades</h2>
             <span>
                 <p>
                     Irure elit fugiat proident consectetur esse aliqua ea cillum proident proident sit. 
@@ -45,15 +83,28 @@
             <div class="tab-content">
 
                 <div class="card" id="menu">
+                    <!-- carrousel inyectado desde bootstrap-->
 
-                    <h2>caja 1</h2>
-                    <span>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Aliquid quo omnis commodi rem cupiditate nobis reprehenderit 
-                            tempore neque doloremque quod inventore, sint vero distinctio,         
-                        </p>
-                    </span>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/B10A2057.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/B10A2061.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                    <!--*****cualquier otro carrousel de prueba irá después*****-->
                 </div>
                 <div class="card" id="men2" style="display: none;">
                     <h2>caja 2</h2>
@@ -68,6 +119,7 @@
         
     </section>
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 </body>
 </html>
