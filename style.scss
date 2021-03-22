@@ -5,164 +5,30 @@ $color-d: black;
 
 
 body{
-
+// ******* espacio para reglas generales
  font-family: $myFont;
  color: $color-u;
- ul{
-     list-style-type: none;
-      a{
-        text-decoration: none;
-      }
- }
+
  .cont_nav{
      
-         display: grid;
-     
-     header {
-         margin: auto;
-    
-     }
-
- }
- section{
-
- }
-    
-}
-
-
-@media (max-width: 767.98px){
-    body{
-        background-color: $color-d;
-        color:  $color-u;
+     height: 3.5em;
+     background-color: aqua;
+     span{
+         padding: 0.313em;
    
-    .cont_nav{
-        grid-template-columns: 1fr 1fr;
-        header {
-            margin-left: 10px;
-
-        }
-        nav{
- 
-            ul{
-                list-style-type: none;
-                a{
-                    text-decoration: none;
-                    color: $color-u;
-                }
-            }
-        }
-// section para el home y menú
-    }
-    section{
-        margin-top: 100px;
-        position: absolute;
-        .home{
-            height: 300px;
-            width: 80%;
-            margin: auto;
-            text-align: center;
-            background-color:gray;
-          span{
-              width: 80%;
-              margin: auto;
-          }
-        }
-        .tab-content{
-            text-align: center;
-            color: green;
-                
-    }
-
-    }
-    }
-}
-
-@media (min-width: 768px){
-    body{
-        background-color: pink;
-        color:black;
-        .cont_nav{
-            display: grid;
-            grid-template-columns: 1fr ; 
-            ul{
-                display: flex;
-                justify-content: space-around;
-                li{
-                    a{
-                        color: $color-d;
-                    }
-                }
-            }
-        }
+     }
         
+    }
     section{
-        margin-top: 100px;
-        position: absolute;
-        .home{
-            height: 300px;
-            width: 50%;
-            text-align: left;
-            background-color:gray;
-            margin-left: 100px;
-          span{
-              width: 80%;
-              margin: auto;
-          }
-        }
-        .tab-content{
-            text-align: center;
-            //provisional
-           color: green;
-    }
-
-    }
-
-    }
-}
-@media (min-width: 992px){
- 
-    body{
-        background-color: $color-d;
-        color:$color-u;
-        .cont_nav{
-            //provisional
-             margin-top: 80px;
-            display: grid;
-            grid-template-columns: 1fr ; 
-            ul{
-                //provisional
-                margin-top: 30px;
-                display: flex;
-                justify-content: space-around;
-                    a{
-                        color: $color-u;
-                    }               
-            }
-        }
+         background-color: red;
+         .p_card{
+             height: 300px;
+             background-color: beige;
+             padding: 10px;
+         }
         
-    section{
-        margin-top: 100px;
-        position: absolute;
-        .home{
-            height: 300px;
-            width: 40%;
-            text-align: left;
-            background-color:gray;
-            margin-left: 100px;
-          span{
-              width: 80%;
-              margin: auto;
-          }
-        }
-        .tab-content{
-            margin: 20px;
-            text-align: center;
-            background-color: aqua;
-             color: green;    
     }
-
-    }
-
-    }
+    
 }
+
+// ***** llega hasta aca ********
