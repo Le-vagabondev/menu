@@ -1,19 +1,57 @@
 body {
-  font-family: "Roboto", sans-serif;
-  color: pink;
+  background-color: #3b4885 !important;
 }
 body .cont_nav {
   height: 3.5em;
-  background-color: aqua;
 }
 body .cont_nav span {
   padding: 0.313em;
+  color: #252f59;
+  font-family: Futura Hv Bt;
+  margin-left: 80%;
+  text-transform: uppercase;
 }
 body section {
-  background-color: red;
+  background-color: #3b4885;
 }
 body section .p_card {
-  height: 300px;
-  background-color: beige;
-  padding: 10px;
+  height: 500px;
+}
+body section .p_card span {
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 40px;
+  color: #bfbcb8;
+}
+body section .nav_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body section .nav_button button {
+  background-color: #3b4885;
+  border: none;
+  box-shadow: -7px -7px 20px 0px #47549b, -4px -4px 5px 0px #47549b, 7px 7px 20px 0px #313b6f, 4px 4px 5px 0px #313b6f, inset 0px 0px 0px 0px #47549b, inset 0px 0px 0px 0px #313b6f, inset 0px 0px 0px 0px #47549b, inset 0px 0px 0px 0px #313b6f;
+  text-transform: uppercase;
+  font-family: Futura Hv Bt;
+  color: #252f59;
+}
+body section .nav_button button:hover {
+  background-color: #424e91;
+}
+body section .tab-content {
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: black;
+  box-shadow: -7px -7px 20px 0px #47549b, -4px -4px 5px 0px #47549b, 7px 7px 20px 0px #313b6f, 4px 4px 5px 0px #313b6f;
+}
+body footer {
+  height: 5em;
+  text-align: right;
+  margin-right: 5%;
+  font-family: Futura Hv Bt;
+  text-transform: uppercase;
+  color: #252f59;
 }
