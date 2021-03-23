@@ -1,6 +1,14 @@
 body {
   background-color: #3b4885 !important;
 }
+body a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #86bde1;
+}
+body a:hover {
+  color: #bfbcb8;
+}
 body .cont_nav {
   height: 3.5em;
 }
@@ -47,11 +55,31 @@ body section .tab-content {
   background-color: black;
   box-shadow: -7px -7px 20px 0px #47549b, -4px -4px 5px 0px #47549b, 7px 7px 20px 0px #313b6f, 4px 4px 5px 0px #313b6f;
 }
+body section .tab-content .card {
+  background-color: #3b4885;
+}
+body section .tab-content .cat .gato {
+  width: 300px;
+}
+body section .tab-content .inst {
+  width: 500px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  text-transform: uppercase;
+  color: #252f59;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+}
 body footer {
   height: 5em;
   text-align: right;
   margin-right: 5%;
   font-family: Futura Hv Bt;
   text-transform: uppercase;
+  background-color: #3b4885;
   color: #252f59;
 }
